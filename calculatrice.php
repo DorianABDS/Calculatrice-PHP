@@ -119,7 +119,7 @@ if (isset($_POST['equal'])) {
             </form>
         </div>
         <footer>
-            <p>© 2021 - Dorian ABBADESSA</p>
+            <p>© 2025 - Dorian ABBADESSA</p>
         </footer>
     </main>
 </body>
