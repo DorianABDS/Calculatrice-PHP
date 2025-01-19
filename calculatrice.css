@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 500;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 50px;
+}
+
+.navbar ul li a {
+    color: #fc7a00;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.calc{
+    margin: auto;
+    padding: 0 20px 20px 20px;
+    background-color: #e0e0e0;
+    border: solid 1px grey;
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.maininput{
+    background-color: #d4d4d4;
+    border: none;
+    height: 125px;
+    width: 98.6%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.numbtn{
+    padding: 20px 30px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 30%;
+    background-color: #ffffff;
+}
+
+.numbtn:hover{
+    background-color: #d4d4d4;
+}
+
+.calbtn{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30%;
+    color: #fc7a00;
+    background-color: #ffffff;
+}
+
+.calbtn:hover{
+    background-color: #d4d4d4;
+}
+
+.c{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30%;
+    color: #fc7a00;
+    background-color: #fff;
+}
+
+.c:hover{
+    background-color: #d4d4d4;
+}
+
+.equal{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30%;
+    color: #fff;
+    background-color: #fc7a00;
+}
+
+.equal:hover{
+    background-color: #d47100;
+}
