@@ -118,6 +118,9 @@ if (isset($_POST['equal'])) {
                 <input type="submit" class="equal" name="equal" value="=" />
             </form>
         </div>
+        <footer>
+            <p>© 2021 - Dorian ABBADESSA</p>
+        </footer>
     </main>
 </body>
 
