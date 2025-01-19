@@ -8,13 +8,21 @@
 }
 
 body{
-    background-color: rgb(22, 22, 22);
+    background-color: #161616;
 }
 
 header {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 10vh;
     background-color: #ffffff;
+}
+
+main {
+    padding-top: 150px;
+    height: 100vh;
 }
 
 .navbar {
@@ -36,6 +44,14 @@ header {
     color: #fc7a00;
     margin: 0 10px;
     text-decoration: none;
+    font-size: 28px;
+}
+
+.social ul li a img {
+    color: #fc7a00;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 28px;
 }
 
 .calc{
@@ -105,4 +121,21 @@ header {
 
 .equal:hover{
     background-color: #d47100;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #161616;
+    font-size: 16px;
 }
